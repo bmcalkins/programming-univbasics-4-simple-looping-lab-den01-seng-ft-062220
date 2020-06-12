@@ -8,3 +8,5 @@ while counter < 5 do
     counter += 1
   end 
 end 
+
+loop_message_five_times
