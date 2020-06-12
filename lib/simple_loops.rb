@@ -17,3 +17,13 @@ def output_array(array)
       counter += 1
   end
 end
+
+def return_string_array(array)
+  return_array=[]
+    counter = 0
+  while counter < array.length do
+    return_array.push("#{array[counter]}")
+      counter += 1
+  end
+  return_array
+end
